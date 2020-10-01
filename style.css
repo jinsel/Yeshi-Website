@@ -46,6 +46,10 @@ header ul li a:hover {
   padding-right: 6em;
 }
 
+.contact a {
+  text-decoration: none;
+}
+
 .layout {
   width: 65%;
   margin: 0 auto;
@@ -78,6 +82,126 @@ header ul li a:hover {
 .hobbies {
   font-size: 20px;
   margin-left: 2em;
+}
+
+
+@media only screen and (min-width:320px) {
+
+  header ul {
+    padding-left: 2em;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .contact {
+    font-size: 25px;
+    padding-left: 50px;
+  }
+
+  .layout {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .intro {
+    margin: 2em 5em 4em;
+    width: 100%;
+    font-size: 1em;
+  }
+
+  .intro h1 {
+    font-size: 7em;
+  }
+
+  .intro p {
+    font-size: 1em;
+  }
+
+  .hobbies {
+    font-size: 18px;
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (min-width:768px) {
+
+  header ul {
+    padding-left: 2em;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .contact {
+    font-size: 25px;
+    padding-left: 50px;
+  }
+
+  .layout {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .intro {
+    margin: 2em 2em 4em;
+    width: 80%;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width:1025px) {
+  header ul {
+    display: inline-flex;
+    padding-left: 8em;
+    font-size: 20px;
+    width: 100%;
+    list-style: none;
+  }
+
+  header ul li {
+    font-weight: 600;
+    margin-right: 2.5em;
+    font-size: 1.2em;
+  }
+
+  .contact {
+    font-size: 25px;
+    float: right;
+    padding-right: 6em;
+  }
+
+  .contact a {
+    text-decoration: none;
+  }
+
+  .layout {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .intro {
+    transform: translateY(0);
+    margin: 2em 0 4em;
+    width: 95%;
+    position: relative;
+    font-size: 0.9em;
+    top: 30%;
+  }
+
+  .intro h1 {
+    font-size: 10em;
+    margin: 0;
+    color: #7400b8;
+    font-weight: 900;
+  }
+
+  .intro p {
+    font-size: 1.5em;
+  }
+
+  .hobbies {
+    font-size: 20px;
+    margin-left: 2em;
+  }
 }
 
 /* For Projects.html */
@@ -146,10 +270,12 @@ header ul li a:hover {
 ul {
   list-style-type: none;
 }
+
 .contact_content {
   width: 90%;
   font-size: 20px;
 }
+
 .social-media a {
   text-decoration: none;
   font-size: 25px;
