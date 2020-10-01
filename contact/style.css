@@ -2,6 +2,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: url("../img/contact.png") no-repeat center fixed;
+  background-size: cover;
+
 }
 
 header {
@@ -55,218 +58,6 @@ header ul li a:hover {
   margin: 0 auto;
 }
 
-.intro {
-  transform: translateY(0);
-  margin: 2em 0 4em;
-  width: 95%;
-  position: relative;
-  font-size: 0.9em;
-  top: 30%;
-}
-
-.intro h1 {
-  font-size: 10em;
-  margin: 0;
-  color: #7400b8;
-  font-weight: 900;
-}
-
-.intro p {
-  font-size: 1.5em;
-}
-
-#peace {
-  columns: purple;
-}
-
-.hobbies {
-  font-size: 20px;
-  margin-left: 2em;
-}
-
-
-@media only screen and (min-width:320px) {
-
-  header ul {
-    padding-left: 2em;
-    font-size: 15px;
-    width: 100%;
-  }
-
-  .contact {
-    font-size: 25px;
-    padding-left: 50px;
-  }
-
-  .layout {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .intro {
-    margin: 2em 5em 4em;
-    width: 100%;
-    font-size: 1em;
-  }
-
-  .intro h1 {
-    font-size: 7em;
-  }
-
-  .intro p {
-    font-size: 1em;
-  }
-
-  .hobbies {
-    font-size: 18px;
-    margin-left: 2em;
-  }
-}
-
-@media only screen and (min-width:768px) {
-
-  header ul {
-    padding-left: 2em;
-    font-size: 15px;
-    width: 100%;
-  }
-
-  .contact {
-    font-size: 25px;
-    padding-left: 50px;
-  }
-
-  .layout {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .intro {
-    margin: 2em 2em 4em;
-    width: 80%;
-    font-size: 1em;
-  }
-}
-
-@media only screen and (min-width:1025px) {
-  header ul {
-    display: inline-flex;
-    padding-left: 8em;
-    font-size: 20px;
-    width: 100%;
-    list-style: none;
-  }
-
-  header ul li {
-    font-weight: 600;
-    margin-right: 2.5em;
-    font-size: 1.2em;
-  }
-
-  .contact {
-    font-size: 25px;
-    float: right;
-    padding-right: 6em;
-  }
-
-  .contact a {
-    text-decoration: none;
-  }
-
-  .layout {
-    width: 65%;
-    margin: 0 auto;
-  }
-
-  .intro {
-    transform: translateY(0);
-    margin: 2em 0 4em;
-    width: 95%;
-    position: relative;
-    font-size: 0.9em;
-    top: 30%;
-  }
-
-  .intro h1 {
-    font-size: 10em;
-    margin: 0;
-    color: #7400b8;
-    font-weight: 900;
-  }
-
-  .intro p {
-    font-size: 1.5em;
-  }
-
-  .hobbies {
-    font-size: 20px;
-    margin-left: 2em;
-  }
-}
-
-/* For Projects.html */
-
-.projects-section h1 {
-  font-size: 5em;
-  margin-bottom: 0;
-  color: #0c1a39;
-}
-
-.projects-section h3 {
-  font-weight: 400;
-}
-
-.card_container {
-  width: 80%;
-  padding-left: 6em;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
-}
-
-.card {
-  width: 330px;
-  height: 340px;
-  display: flex;
-  flex-wrap: row wrap;
-  flex-direction: column;
-  font-family: sans-serif;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  margin-top: 30px;
-  margin-left: 6em;
-}
-
-.content {
-  font-family: "Poppins", sans-serif;
-  margin-left: 1em;
-  justify-content: center;
-}
-
-.cardfooter {
-  background: #19255e;
-  display: grid;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.cardfooter h3 {
-  margin: 8px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 1.3em;
-  text-align: center;
-  color: white;
-}
-
-.cardfooter a {
-  text-decoration: none;
-  color: white;
-}
-
-.cardfooter a:hover {
-  color: #fec556;
-}
-
 ul {
   list-style-type: none;
 }
@@ -280,4 +71,122 @@ ul {
   text-decoration: none;
   font-size: 25px;
   margin: 5px;
+}
+
+/* Media Query */
+/* Mobile Phone */
+@media (max-width: 768px) {
+  body {
+    background: url("../img/contact_medium.png") no-repeat center fixed;
+    background-size: cover;
+  }
+
+  header {
+    margin-bottom: 1em;
+  }
+
+  header ul {
+    display: inline-flex;
+    padding-left: 4em;
+    font-size: 18px;
+    width: 100%;
+    list-style: none;
+  }
+
+  .contact {
+    font-size: 25px;
+    float: right;
+    padding-right: 3.5em;
+  }
+
+  .layout {
+    margin: 0 auto;
+  }
+
+  .social-media a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+}
+
+@media (max-width: 468px) {
+  body {
+    background: url("../img/contact_small.png") no-repeat center fixed;
+    background-size: cover;
+  }
+
+  header {
+    margin-bottom: 1em;
+  }
+
+  header ul {
+    display: inline-flex;
+    padding-left: 3em;
+    font-size: 12px;
+    width: 100%;
+    list-style: none;
+  }
+
+  .contact {
+    font-size: 20px;
+    float: right;
+    padding-right: 2em;
+  }
+
+  .layout h1 {
+    margin: 0 auto;
+    font-size: 25px;
+  }
+
+  .contact_content {
+    width: 90%;
+    font-size: 17px;
+  }
+
+  .social-media a {
+    font-size: 18px;
+    margin: 2px;
+  }
+}
+
+@media (max-width: 380px) {
+  body {
+    background: url("../img/contact_small.png") no-repeat center fixed;
+    background-size: cover;
+  }
+
+  header {
+    margin-bottom: 1em;
+  }
+
+  header ul {
+    display: inline-flex;
+    padding-left: 3em;
+    font-size: 10px;
+    width: 100%;
+    list-style: none;
+  }
+
+  .contact {
+    font-size: 18px;
+    float: right;
+    padding-right: 2em;
+  }
+
+  .layout h1 {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .contact_content {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .social-media a {
+    font-size: 18px;
+    margin: 2px;
+  }
 }
