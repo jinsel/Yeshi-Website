@@ -79,6 +79,7 @@ header ul li a:hover {
   font-size: 20px;
   margin-left: 2em;
 }
+
 /* For Projects.html */
 
 .projects-section h1 {
@@ -139,5 +140,18 @@ header ul li a:hover {
 }
 
 .cardfooter a:hover {
-  color: #d62828;
+  color: #fec556;
+}
+
+ul {
+  list-style-type: none;
+}
+.contact_content {
+  width: 90%;
+  font-size: 20px;
+}
+.social-media a {
+  text-decoration: none;
+  font-size: 25px;
+  margin: 5px;
 }
