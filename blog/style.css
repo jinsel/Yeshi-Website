@@ -2,6 +2,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: url("../img/blog.png") no-repeat center fixed;
+  background-size: cover;
 }
 
 header {
@@ -59,7 +61,7 @@ header ul li a:hover {
 /* Mobile Phone */
 @media (max-width: 768px) {
   body {
-    background: url("../img/contact_medium.png") no-repeat center fixed;
+    background: url("../img/blog.png") no-repeat center fixed;
     background-size: cover;
   }
 
@@ -157,6 +159,31 @@ header ul li a:hover {
   h1 {
     font-size: 18px;
   }
+}
 
+@media (max-width:330px) {
+
+  header {
+    margin-bottom: 1em;
+  }
+
+  header ul {
+    display: inline-flex;
+    padding-left: 2em;
+    font-size: 10px;
+    width: 100%;
+    list-style: none;
+  }
+
+  .contact {
+    font-size: 13px;
+    float: right;
+    padding-right: 0.5em;
+  }
+
+  .layout {
+    margin-left: 1em;
+    width: 90%;
+  }
 
 }

@@ -118,7 +118,7 @@ header ul li a:hover {
 
 @media (max-width: 768px) {
   body {
-    background: url("../img/contact_medium.png") no-repeat center fixed;
+    background: url("../img/blog.png") no-repeat center fixed;
     background-size: cover;
   }
 
@@ -128,26 +128,52 @@ header ul li a:hover {
 
   header ul {
     display: inline-flex;
-    padding-left: 4em;
+    padding-left: 3em;
     font-size: 18px;
     width: 100%;
     list-style: none;
   }
 
-  .contact {
-    font-size: 25px;
-    float: right;
-    padding-right: 3.5em;
-  }
-
   .layout {
-    margin: 0 auto;
+    margin-left: 2em;
+    width: 90%;
   }
 
-  .social-media a {
-    text-decoration: none;
+  .contact {
     font-size: 20px;
-    margin: 5px;
+    float: right;
+    padding-right: 2em;
+  }
+
+  .projects-section h1 {
+    font-size: 3.5em;
+    margin-bottom: 0;
+    color: #0c1a39;
+    padding-left: 1em;
+  }
+
+  .projects-section h3 {
+    font-weight: 300;
+    font-size: 13px;
+    padding-left: 4.5em;
+  }
+
+  .card {
+    width: 250px;
+    height: 220px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 0em;
+  }
+
+  .content {
+    font-size: 10px;
+    margin-left: 0.5em;
+  }
+
+  .cardfooter h3 {
+    font-weight: 300;
+    font-size: 0.9em;
   }
 
 }
@@ -165,22 +191,50 @@ header ul li a:hover {
   header ul {
     display: inline-flex;
     padding-left: 3em;
-    font-size: 12px;
+    font-size: 10px;
     width: 100%;
     list-style: none;
   }
 
+  .layout {
+    margin-left: 2em;
+    width: 90%;
+  }
+
   .contact {
-    font-size: 20px;
+    font-size: 18px;
     float: right;
     padding-right: 2em;
   }
 
-  .layout h1 {
-    margin: 0 auto;
-    font-size: 25px;
+  .projects-section h1 {
+    font-size: 1.9em;
+    margin-bottom: 0;
+    color: #0c1a39;
   }
 
+  .projects-section h3 {
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+  .card {
+    width: 250px;
+    height: 220px;
+    display: block;
+    margin-top: 30px;
+    margin-left: -1em;
+  }
+
+  .content {
+    font-size: 10px;
+    margin-left: 0.5em;
+  }
+
+  .cardfooter h3 {
+    font-weight: 300;
+    font-size: 0.9em;
+  }
 
 }
 
@@ -202,20 +256,109 @@ header ul li a:hover {
     list-style: none;
   }
 
+  .layout {
+    margin-left: 2em;
+    width: 90%;
+  }
+
   .contact {
     font-size: 18px;
     float: right;
     padding-right: 2em;
   }
 
-  .layout h1 {
-    margin: 0 auto;
-    font-size: 20px;
+  .projects-section h1 {
+    font-size: 1.7em;
+    margin-bottom: 0;
+    color: #0c1a39;
+  }
+
+  .projects-section h3 {
+    font-weight: 300;
+    font-size: 13px;
+  }
+
+  .card {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin-top: 30px;
+    margin-left: -2em;
+  }
+
+  .content {
+    font-size: 10px;
+    margin-left: 1em;
+  }
+
+  .cardfooter h3 {
+    font-weight: 300;
+    font-size: 0.9em;
+  }
+
+}
+
+@media (max-width: 330px) {
+  body {
+    background: url("../img/blog.png") no-repeat center fixed;
+    background-size: cover;
+  }
+
+  header {
+    margin-bottom: 1em;
+  }
+
+  header ul {
+    display: inline-flex;
+    padding-left: 2em;
+    font-size: 10px;
+    width: 100%;
+    list-style: none;
+  }
+
+  .contact {
+    font-size: 13px;
+    float: right;
+    padding-right: 1em;
+  }
+
+  .layout {
+    margin-left: 1.3em;
+    width: 90%;
+  }
+
+
+  .projects-section h1 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: #0c1a39;
+  }
+
+  .projects-section h3 {
+    font-weight: 300;
+    font-size: 12px;
   }
 
   h1 {
     font-size: 18px;
   }
 
+  .card {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin-top: 30px;
+    margin-left: -4em;
+  }
+
+  .content {
+    font-size: 10px;
+    margin-left: 1em;
+  }
+
+  .cardfooter h3 {
+    font-weight: 300;
+    font-size: 0.8em;
+  }
 
 }

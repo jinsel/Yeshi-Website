@@ -190,3 +190,50 @@ ul {
     margin: 2px;
   }
 }
+
+@media (max-width: 330px) {
+  body {
+    background: url("../img/contact_small.png") no-repeat center fixed;
+    background-size: cover;
+  }
+
+  header {
+    margin-bottom: 1em;
+  }
+
+  header ul {
+    display: inline-flex;
+    padding-left: 2em;
+    font-size: 10px;
+    width: 100%;
+    list-style: none;
+  }
+
+  .contact {
+    font-size: 13px;
+    float: right;
+    padding-right: 1em;
+  }
+
+  .layout {
+    margin-left: 1em;
+    width: 90%;
+  }
+
+  .intro h1 {
+    font-size: 5em;
+  }
+
+  .intro {
+    margin: 0;
+  }
+
+  .intro p {
+    font-size: 0.7em;
+  }
+
+  .hobbies {
+    font-size: 10px;
+    margin-left: 0.7em;
+  }
+}
